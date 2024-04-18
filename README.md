@@ -26,10 +26,10 @@ Before you begin, ensure you have the following installed on your local machine:
 3. Install dependencies for both the frontend and backend:
 
    ```bash
-   cd client
-   npm install
-   cd ../server
-   npm install
+   cd portfolio
+   npm install axios
+   cd ../node_api
+   npm install cors
    ```
 
 ## Running the Backend API
@@ -39,13 +39,13 @@ Before you begin, ensure you have the following installed on your local machine:
 2. Navigate to the server directory:
 
    ```bash
-   cd server
+   cd node_api
    ```
 
 3. Start the Node.js server:
 
    ```bash
-   npm start
+   npm index.js
    ```
 
    This will start the backend API at `http://localhost:8888`.
@@ -55,13 +55,13 @@ Before you begin, ensure you have the following installed on your local machine:
 1. Navigate to the client directory:
 
    ```bash
-   cd ../client
+   cd ../portfolio
    ```
 
 2. Start the React development server:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
    This will start the frontend React app at `http://localhost:3000`.
@@ -72,8 +72,8 @@ Once both the backend API and frontend React app are running, you can visit `htt
 
 ## Project Structure
 
-- `/client`: Contains the frontend React app.
-- `/server`: Contains the backend Node.js API.
+- `/portfolio`: Contains the frontend React app.
+- `/node_api`: Contains the backend Node.js API.
 
 ## Dependencies
 
@@ -85,6 +85,6 @@ Once both the backend API and frontend React app are running, you can visit `htt
 
 - express: Web framework for Node.js.
 - mongodb: MongoDB driver for Node.js.
-```
+- cors: Middleware for enabling CORS (Cross-Origin Resource Sharing) in Express apps.
 
-You can copy and paste this entire content into a README.md file in your project repository.
+
