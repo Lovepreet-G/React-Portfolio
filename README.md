@@ -1,6 +1,3 @@
-Sure, here's the entire README content in Markdown format:
-
-```markdown
 # Portfolio React App with Node.js API
 
 This repository contains a portfolio website built with React for the frontend and a Node.js API for the backend. The API serves project and skill data from a MongoDB database.
